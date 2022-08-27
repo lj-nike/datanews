@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="中国新闻数据大赛项目"/>
   </div>
 </template>
 
@@ -12,6 +12,16 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  data () {
+    return {
+      mis: 'liaojie'
+    }
+  },
+  method: {
+    getMis() {
+      console.log(this.mis)
+    }
   }
 }
 </script>
