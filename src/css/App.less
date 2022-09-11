@@ -1,0 +1,218 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0;
+}
+
+#app {
+  // text-align: center;
+  height: 100%;
+  background-color: #cfd6c5;
+  margin: 0;
+  padding: 0;
+  // overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.index {
+  position: relative;
+  width: 100%;
+  height: calc(100vh);
+  background-image: url('../assets/indexPaper.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  .header {
+    background-color: #132810;
+    width: 100%;
+    height: 145px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.83;
+
+    span {
+      line-height: 100%;
+      font-size: 30px;
+      color: #fff;
+      font-style: italic;
+      cursor: pointer;
+    }
+  }
+}
+
+.introduction {
+  position: relative;
+  width: 100%;
+  height: calc(120vh);
+  background-color: #cfd6c5;
+  .section-title {
+    margin-top: 50px;
+  }
+  .title-words {
+    // display: inline-block;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+
+  .title-border {
+    width: 400px;
+    display: inline-block;
+    border: 2px solid #36431C;
+    margin-left: 20px;
+  }
+
+  .introduction-words {
+    text-align: justify;
+    text-indent: 80px;
+    font-size: 3vh;
+    line-height: 70px;
+    padding: 10px;
+  }
+
+  .introduction-special-words {
+    font-weight: bold;
+    font-size: 28px;
+  }
+}
+
+.abs {
+  width: 100%;
+  height: 500px;
+  /* background-color: black; */
+}
+
+.opcity-container {
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  width: 70%;
+  height: 612px;
+  transform: translate(-50%, -50%);
+  /* 50%为自身尺寸的一半 */
+  line-height: 20px;
+  border-radius: 30px;
+  background-color: rgba(54, 67, 28, 0.36);
+  color: rgba(16, 16, 16, 100);
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 100);
+
+  .fix-nail {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 0.66);
+    border: 1px solid rgba(187, 187, 187, 100);
+    border-radius: 50%;
+  }
+
+  .title-words {
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    font-weight: 600;
+    font-size: 4.5em;
+    height: 109px;
+    line-height: 109px;
+  }
+
+  .title-words1 {
+    width: 60%;
+    left: 300px;
+    top: 150px;
+  }
+
+  .title-words2 {
+    width: 80%;
+    left: 300px;
+    top: 300px;
+  }
+}
+.opcity-container-words {
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 70%;
+  transform: translate(-50%, -50%);
+  /* 50%为自身尺寸的一半 */
+  line-height: 20px;
+  border-radius: 30px;
+  background-color: rgba(54, 67, 28, 0.36);
+  color: rgba(16, 16, 16, 100);
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 100);
+
+  .fix-nail {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 0.66);
+    border: 1px solid rgba(187, 187, 187, 100);
+    border-radius: 50%;
+  }
+
+  .title-words {
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    font-weight: 600;
+    font-size: 4.5em;
+    height: 109px;
+    line-height: 109px;
+  }
+
+  .title-words1 {
+    width: 60%;
+    left: 300px;
+    top: 150px;
+  }
+
+  .title-words2 {
+    width: 80%;
+    left: 300px;
+    top: 300px;
+  }
+}
+.image-container {
+  position: relative;
+  width: 100%;
+  height: calc(120vh);
+  background-color: #cfd6c5;
+  .image-item-card-col {
+    // height: 500px;
+    overflow: hidden;
+  }
+  .image-item-card {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 4px;
+  }
+}

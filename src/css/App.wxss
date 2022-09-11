@@ -1,0 +1,113 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0;
+}
+#app {
+  height: 100%;
+  background: skyblue;
+  margin: 0;
+  padding: 0;
+}
+.index {
+  position: relative;
+  width: 100%;
+  height: calc(100vh);
+  background-image: url('../assets/indexPaper.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.index .header {
+  background-color: #132810;
+  width: 100%;
+  height: 145px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 0.83;
+}
+.index .header span {
+  line-height: 100%;
+  font-size: 30px;
+  color: #fff;
+  font-style: italic;
+}
+.index .title {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  width: 70%;
+  height: 612px;
+  transform: translate(-50%, -50%);
+  /* 50%为自身尺寸的一半 */
+  line-height: 20px;
+  border-radius: 30px;
+  background-color: rgba(54, 67, 28, 0.36);
+  color: #101010;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #bbbbbb;
+}
+.index .title .fix-nail {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  width: 30px;
+  height: 30px;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 0.66);
+  border: 1px solid #bbbbbb;
+  border-radius: 50%;
+}
+.index .title .title-words {
+  position: absolute;
+  text-align: left;
+  color: #fff;
+  font-weight: 600;
+  font-size: 4.5em;
+  height: 109px;
+  line-height: 109px;
+}
+.index .title .title-words1 {
+  width: 60%;
+  left: 300px;
+  top: 150px;
+}
+.index .title .title-words2 {
+  width: 80%;
+  left: 300px;
+  top: 300px;
+}
+.introduction {
+  position: relative;
+  width: 100%;
+  height: calc(100vh);
+  background-color: #cfd6c5;
+}
+.introduction .title-words {
+  width: 200px;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.introduction .title-border {
+  width: 400px;
+  display: inline-block;
+  border: 2px solid #36431C;
+  margin-left: 20px;
+}
+.abs {
+  width: 100%;
+  height: 500px;
+  /* background-color: black; */
+}
